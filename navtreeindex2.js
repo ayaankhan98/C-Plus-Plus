@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"d8/dee/avltree_8cpp.html#ae197eb50188fb761346952b9b5f6be59":[8,0,0,1,8],
 "d8/dee/avltree_8cpp.html#ae4a66d8b0c2b0d626aea45977e358c83":[8,0,0,1,5],
 "d8/dee/avltree_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,0,1,9],
 "d8/dee/avltree_8cpp.html#aed58f3cea338a9d7bdcb9a4cfc6c7a78":[8,0,0,1,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "dd/d29/false__position_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,4,2,3],
 "dd/d2f/class_trie.html":[7,0,32],
 "dd/d2f/class_trie.html#a411e77126930a0942dd7b65e96b15206":[7,0,32,6],
-"dd/d2f/class_trie.html#a58b359fad33ca0064bd75a0d41a7b66d":[7,0,32,8],
-"dd/d2f/class_trie.html#a6af57e9f25d0d0a2d59eea5a4a802908":[7,0,32,1]
+"dd/d2f/class_trie.html#a58b359fad33ca0064bd75a0d41a7b66d":[7,0,32,8]
 };

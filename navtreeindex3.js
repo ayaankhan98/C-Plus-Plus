@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"dd/d2f/class_trie.html#a6af57e9f25d0d0a2d59eea5a4a802908":[7,0,32,1],
 "dd/d2f/class_trie.html#a6d10eb1669453395d1900ebd401954fb":[7,0,32,2],
 "dd/d2f/class_trie.html#a734a08b52b8ad73bdd1f36ae8348056e":[7,0,32,4],
 "dd/d2f/class_trie.html#a7c3ba4caf24378826a789848629177bd":[7,0,32,7],
@@ -134,8 +135,8 @@ var NAVTREEINDEX3 =
 "functions_func.html":[7,2,1],
 "functions_rela.html":[7,2,3],
 "functions_vars.html":[7,2,2],
-"globals.html":[8,1,0],
 "globals.html":[8,1,0,0],
+"globals.html":[8,1,0],
 "globals_a.html":[8,1,0,1],
 "globals_b.html":[8,1,0,2],
 "globals_c.html":[8,1,0,3],
@@ -143,8 +144,8 @@ var NAVTREEINDEX3 =
 "globals_defs.html":[8,1,4],
 "globals_e.html":[8,1,0,5],
 "globals_f.html":[8,1,0,6],
-"globals_func.html":[8,1,1,0],
 "globals_func.html":[8,1,1],
+"globals_func.html":[8,1,1,0],
 "globals_func_a.html":[8,1,1,1],
 "globals_func_b.html":[8,1,1,2],
 "globals_func_c.html":[8,1,1,3],

@@ -101,8 +101,8 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "d5/d15/classcll.html#a3f09a4ec2bc5a211a8409693b4cab4f8",
-"d8/dee/avltree_8cpp.html#ae4a66d8b0c2b0d626aea45977e358c83",
-"dd/d2f/class_trie.html#a6d10eb1669453395d1900ebd401954fb"
+"d8/dee/avltree_8cpp.html#ae197eb50188fb761346952b9b5f6be59",
+"dd/d2f/class_trie.html#a6af57e9f25d0d0a2d59eea5a4a802908"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
