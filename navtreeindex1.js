@@ -25,9 +25,10 @@ var NAVTREEINDEX1 =
 "d5/d4c/group__sorting.html#gabd9a93f241c5c86f2ec0abf8b66b4145":[5,2,2],
 "d5/d4c/group__sorting.html#gabd9a93f241c5c86f2ec0abf8b66b4145":[8,0,8,1,0],
 "d5/d4c/group__sorting.html#gae1a3968e7947464bee7714f6d43b7002":[8,0,8,1,4],
-"d5/d4c/group__sorting.html#gae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,8,2,0],
+"d5/d4c/group__sorting.html#gae1a3968e7947464bee7714f6d43b7002":[5,2,9],
 "d5/d4c/group__sorting.html#gae66f6b31b5ad750f1fe042a706a4e3d4":[5,2,4],
 "d5/d4c/group__sorting.html#gae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,8,1,2],
+"d5/d4c/group__sorting.html#gae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,8,2,0],
 "d5/d67/bayes__theorem_8cpp.html":[8,0,6,1],
 "d5/d67/bayes__theorem_8cpp.html#a655bfe51252468d232dc639a340656ba":[8,0,6,1,0],
 "d5/d67/bayes__theorem_8cpp.html#abb4f22dc05887c2259fdfc55c687598f":[8,0,6,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "d8/dee/avltree_8cpp.html#a4d93589966920b2756b84f8b92c54d1c":[8,0,0,1,11],
 "d8/dee/avltree_8cpp.html#a8286388b0743a716145639df3a33e541":[8,0,0,1,3],
 "d8/dee/avltree_8cpp.html#aa7cd8a68075fae1c33df41233c1bed6a":[8,0,0,1,6],
-"d8/dee/avltree_8cpp.html#aaa457ffec24c9643f2768e7a65e96546":[8,0,0,1,4],
-"d8/dee/avltree_8cpp.html#adb8e952bf1c266bae84111b9d6a12015":[8,0,0,1,10]
+"d8/dee/avltree_8cpp.html#aaa457ffec24c9643f2768e7a65e96546":[8,0,0,1,4]
 };
