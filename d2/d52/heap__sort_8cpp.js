@@ -1,7 +1,7 @@
 var heap__sort_8cpp =
 [
+    [ "heapify", "d5/d4c/group__sorting.html#gada988a2b069a5b5c4038831be4178db3", null ],
+    [ "heapSort", "d5/d4c/group__sorting.html#gabc4f57d3d4cc808745ccb8e95bd40251", null ],
     [ "main", "d5/d4c/group__sorting.html#gae66f6b31b5ad750f1fe042a706a4e3d4", null ],
-    [ "heapify", "d5/d4c/group__sorting.html#gacf13154d7aa30be4cb9ba17b4dbb9fe7", null ],
-    [ "heapSort", "d5/d4c/group__sorting.html#ga359b22ceee97166c94f4f158a8fbab9f", null ],
-    [ "printArray", "d5/d4c/group__sorting.html#gae14ac35743d33d7dc11fd74badaa67a6", null ]
+    [ "printArray", "d5/d4c/group__sorting.html#gacb94afd03a985c72f5b8530bc3e7b7ae", null ]
 ];

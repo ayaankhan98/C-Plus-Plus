@@ -92,8 +92,7 @@ $(document).ready(function(){initNavTree('d5/d4c/group__sorting.html','../../');
 <div class="header">
   <div class="summary">
 <a href="#files">Files</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Sorting Algorithm</div>  </div>
 </div><!--header-->
@@ -110,6 +109,12 @@ Files</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:gacb94afd03a985c72f5b8530bc3e7b7ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d4c/group__sorting.html#gacb94afd03a985c72f5b8530bc3e7b7ae">printArray</a> (int *arr, int sz)</td></tr>
+<tr class="separator:gacb94afd03a985c72f5b8530bc3e7b7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gada988a2b069a5b5c4038831be4178db3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d4c/group__sorting.html#gada988a2b069a5b5c4038831be4178db3">heapify</a> (int *arr, int n, int i)</td></tr>
+<tr class="separator:gada988a2b069a5b5c4038831be4178db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabc4f57d3d4cc808745ccb8e95bd40251"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d4c/group__sorting.html#gabc4f57d3d4cc808745ccb8e95bd40251">heapSort</a> (int *arr, int n)</td></tr>
+<tr class="separator:gabc4f57d3d4cc808745ccb8e95bd40251"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d4c/group__sorting.html#gae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
 <tr class="separator:gae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga460c61cd948203b4816bef2accb3fc73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d4c/group__sorting.html#ga460c61cd948203b4816bef2accb3fc73">merge</a> (int *arr, int l, int m, int r)</td></tr>
@@ -118,18 +123,124 @@ Functions</h2></td></tr>
 <tr class="separator:gab6b14fea48d9841e29b9fc26be6e05d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0a9a57a1f1bbba3d4822531d002b7e07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d4c/group__sorting.html#ga0a9a57a1f1bbba3d4822531d002b7e07">show</a> (int *arr, int size)</td></tr>
 <tr class="separator:ga0a9a57a1f1bbba3d4822531d002b7e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:gae14ac35743d33d7dc11fd74badaa67a6"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d4c/group__sorting.html#gae14ac35743d33d7dc11fd74badaa67a6">printArray</a></td></tr>
-<tr class="separator:gae14ac35743d33d7dc11fd74badaa67a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacf13154d7aa30be4cb9ba17b4dbb9fe7"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d4c/group__sorting.html#gacf13154d7aa30be4cb9ba17b4dbb9fe7">heapify</a> )(int *arr, int n, int i)</td></tr>
-<tr class="separator:gacf13154d7aa30be4cb9ba17b4dbb9fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga359b22ceee97166c94f4f158a8fbab9f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d4c/group__sorting.html#ga359b22ceee97166c94f4f158a8fbab9f">heapSort</a></td></tr>
-<tr class="separator:ga359b22ceee97166c94f4f158a8fbab9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="gada988a2b069a5b5c4038831be4178db3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gada988a2b069a5b5c4038831be4178db3">&#9670;&nbsp;</a></span>heapify()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void heapify </td>
+          <td>(</td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>arr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The heapify procedure can be thought of as building a heap from the bottom up by successively sifting downward to establish the heap property.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arr</td><td>array to be sorted </td></tr>
+    <tr><td class="paramname">n</td><td>size of array </td></tr>
+    <tr><td class="paramname">i</td><td>node position in Binary Tress or element position in Array to be compared with it's childern </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                                     {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">int</span> largest = i;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">int</span> l = 2 * i + 1;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">int</span> r = 2 * i + 2;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">if</span> (l &lt; n &amp;&amp; arr[l] &gt; arr[largest])</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        largest = l;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">if</span> (r &lt; n &amp;&amp; arr[r] &gt; arr[largest])</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        largest = r;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">if</span> (largest != i) {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/swap.html">std::swap</a>(arr[i], arr[largest]);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="../../d5/d4c/group__sorting.html#gada988a2b069a5b5c4038831be4178db3">heapify</a>(arr, n, largest);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
+</div><!-- fragment --><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4c/group__sorting_gada988a2b069a5b5c4038831be4178db3_cgraph.svg" width="202" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="gabc4f57d3d4cc808745ccb8e95bd40251"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabc4f57d3d4cc808745ccb8e95bd40251">&#9670;&nbsp;</a></span>heapSort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void heapSort </td>
+          <td>(</td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>arr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>heapSort lambda function utilizes heapify procedure to sort the array</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arr</td><td>array to be sorted </td></tr>
+    <tr><td class="paramname">n</td><td>size of array </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                               {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = n - 1; i &gt;= 0; i--) <a class="code" href="../../d5/d4c/group__sorting.html#gada988a2b069a5b5c4038831be4178db3">heapify</a>(arr, n, i);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = n - 1; i &gt;= 0; i--) {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/swap.html">std::swap</a>(arr[0], arr[i]);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <a class="code" href="../../d5/d4c/group__sorting.html#gada988a2b069a5b5c4038831be4178db3">heapify</a>(arr, i, 0);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;}</div>
+</div><!-- fragment --><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4c/group__sorting_gabc4f57d3d4cc808745ccb8e95bd40251_cgraph.svg" width="324" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="gae66f6b31b5ad750f1fe042a706a4e3d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&nbsp;</a></span>main()</h2>
 
@@ -145,15 +256,21 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Main function </p>
-<div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;           {</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">int</span> arr[] = {-10, 78, -1, -6, 7, 4, 94, 5, 99, 0};</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">int</span> sz = <span class="keyword">sizeof</span>(arr) / <span class="keyword">sizeof</span>(arr[0]);  <span class="comment">// sz - size of array</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <a class="code" href="../../d5/d4c/group__sorting.html#gae14ac35743d33d7dc11fd74badaa67a6">printArray</a>(arr, sz);  <span class="comment">// displaying the array before sorting</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="../../d5/d4c/group__sorting.html#ga359b22ceee97166c94f4f158a8fbab9f">heapSort</a>(arr, sz);    <span class="comment">// calling heapsort to sort the array</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <a class="code" href="../../d5/d4c/group__sorting.html#gae14ac35743d33d7dc11fd74badaa67a6">printArray</a>(arr, sz);  <span class="comment">// display array after sorting</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}</div>
-</div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;           {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordtype">int</span> arr[] = {-10, 78, -1, -6, 7, 4, 94, 5, 99, 0};</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">int</span> sz = <span class="keyword">sizeof</span>(arr) / <span class="keyword">sizeof</span>(arr[0]);  <span class="comment">// sz - size of array</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <a class="code" href="../../d5/d4c/group__sorting.html#gacb94afd03a985c72f5b8530bc3e7b7ae">printArray</a>(arr, sz);  <span class="comment">// displaying the array before sorting</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <a class="code" href="../../d5/d4c/group__sorting.html#gabc4f57d3d4cc808745ccb8e95bd40251">heapSort</a>(arr, sz);    <span class="comment">// calling heapsort to sort the array</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <a class="code" href="../../d5/d4c/group__sorting.html#gacb94afd03a985c72f5b8530bc3e7b7ae">printArray</a>(arr, sz);  <span class="comment">// display array after sorting</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div>
+</div><!-- fragment --><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4c/group__sorting_gae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.svg" width="427" height="114"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
 </div>
 </div>
 <a id="ga460c61cd948203b4816bef2accb3fc73"></a>
@@ -308,6 +425,46 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="gacb94afd03a985c72f5b8530bc3e7b7ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacb94afd03a985c72f5b8530bc3e7b7ae">&#9670;&nbsp;</a></span>printArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printArray </td>
+          <td>(</td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>arr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Utility Lambda function to print the array after sorting.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arr</td><td>array to be printed </td></tr>
+    <tr><td class="paramname">sz</td><td>size of array </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                                  {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; sz; i++) <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; arr[i] &lt;&lt; <span class="stringliteral">&quot;  &quot;</span>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="ga0a9a57a1f1bbba3d4822531d002b7e07"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga0a9a57a1f1bbba3d4822531d002b7e07">&#9670;&nbsp;</a></span>show()</h2>
 
@@ -341,108 +498,20 @@ Here is the call graph for this function:</div>
 </div><!-- fragment -->
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="gacf13154d7aa30be4cb9ba17b4dbb9fe7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacf13154d7aa30be4cb9ba17b4dbb9fe7">&#9670;&nbsp;</a></span>heapify</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* heapify) (int *arr, int n, int i)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= [](<span class="keywordtype">int</span> *arr, <span class="keywordtype">int</span> n, <span class="keywordtype">int</span> i) {</div>
-<div class="line">    <span class="keywordtype">int</span> largest = i;</div>
-<div class="line">    <span class="keywordtype">int</span> l = 2 * i + 1;</div>
-<div class="line">    <span class="keywordtype">int</span> r = 2 * i + 2;</div>
-<div class="line"> </div>
-<div class="line">    <span class="keywordflow">if</span> (l &lt; n &amp;&amp; arr[l] &gt; arr[largest])</div>
-<div class="line">        largest = l;</div>
-<div class="line"> </div>
-<div class="line">    <span class="keywordflow">if</span> (r &lt; n &amp;&amp; arr[r] &gt; arr[largest])</div>
-<div class="line">        largest = r;</div>
-<div class="line"> </div>
-<div class="line">    <span class="keywordflow">if</span> (largest != i) {</div>
-<div class="line">        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/swap.html">std::swap</a>(arr[i], arr[largest]);</div>
-<div class="line">        <a class="code" href="../../d5/d4c/group__sorting.html#gacf13154d7aa30be4cb9ba17b4dbb9fe7">heapify</a>(arr, n, largest);</div>
-<div class="line">    }</div>
-<div class="line">}</div>
-</div><!-- fragment --><p>The heapify procedure can be thought of as building a heap from the bottom up by successively sifting downward to establish the heap property. </p>
-
-</div>
-</div>
-<a id="ga359b22ceee97166c94f4f158a8fbab9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga359b22ceee97166c94f4f158a8fbab9f">&#9670;&nbsp;</a></span>heapSort</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto heapSort</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= [](<span class="keywordtype">int</span> *arr, <span class="keywordtype">int</span> n) {</div>
-<div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = n - 1; i &gt;= 0; i--) <a class="code" href="../../d5/d4c/group__sorting.html#gacf13154d7aa30be4cb9ba17b4dbb9fe7">heapify</a>(arr, n, i);</div>
-<div class="line"> </div>
-<div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = n - 1; i &gt;= 0; i--) {</div>
-<div class="line">        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/swap.html">std::swap</a>(arr[0], arr[i]);</div>
-<div class="line">        <a class="code" href="../../d5/d4c/group__sorting.html#gacf13154d7aa30be4cb9ba17b4dbb9fe7">heapify</a>(arr, i, 0);</div>
-<div class="line">    }</div>
-<div class="line">}</div>
-</div><!-- fragment --><p>heapSort lambda function utilizes heapify procedure to sort the array</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">arr</td><td>array to be sorted </td></tr>
-    <tr><td class="paramname">n</td><td>size of array </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="gae14ac35743d33d7dc11fd74badaa67a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae14ac35743d33d7dc11fd74badaa67a6">&#9670;&nbsp;</a></span>printArray</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto printArray</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= [](<span class="keywordtype">int</span> *arr, <span class="keywordtype">int</span> sz) {</div>
-<div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; sz; i++) <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; arr[i] &lt;&lt; <span class="stringliteral">&quot;  &quot;</span>;</div>
-<div class="line">    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line">}</div>
-</div><!-- fragment --><p>Utility Lambda function to print the array after sorting.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">arr</td><td>array to be printed </td></tr>
-    <tr><td class="paramname">sz</td><td>size of array </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="agroup__sorting_html_gada988a2b069a5b5c4038831be4178db3"><div class="ttname"><a href="../../d5/d4c/group__sorting.html#gada988a2b069a5b5c4038831be4178db3">heapify</a></div><div class="ttdeci">void heapify(int *arr, int n, int i)</div><div class="ttdef"><b>Definition:</b> heap_sort.cpp:53</div></div>
+<div class="ttc" id="agroup__sorting_html_gabc4f57d3d4cc808745ccb8e95bd40251"><div class="ttname"><a href="../../d5/d4c/group__sorting.html#gabc4f57d3d4cc808745ccb8e95bd40251">heapSort</a></div><div class="ttdeci">void heapSort(int *arr, int n)</div><div class="ttdef"><b>Definition:</b> heap_sort.cpp:78</div></div>
 <div class="ttc" id="agroup__sorting_html_gab6b14fea48d9841e29b9fc26be6e05d7"><div class="ttname"><a href="../../d5/d4c/group__sorting.html#gab6b14fea48d9841e29b9fc26be6e05d7">mergeSort</a></div><div class="ttdeci">void mergeSort(int *arr, int l, int r)</div><div class="ttdef"><b>Definition:</b> merge_sort.cpp:83</div></div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
 <div class="ttc" id="agroup__sorting_html_ga460c61cd948203b4816bef2accb3fc73"><div class="ttname"><a href="../../d5/d4c/group__sorting.html#ga460c61cd948203b4816bef2accb3fc73">merge</a></div><div class="ttdeci">void merge(int *arr, int l, int m, int r)</div><div class="ttdef"><b>Definition:</b> merge_sort.cpp:33</div></div>
 <div class="ttc" id="amatrix__exponentiation_8cpp_html_afcf0d19607cd0edd8ae333d2b9c220c0"><div class="ttname"><a href="../../d7/d35/matrix__exponentiation_8cpp.html#afcf0d19607cd0edd8ae333d2b9c220c0">k</a></div><div class="ttdeci">ll k</div><div class="ttdef"><b>Definition:</b> matrix_exponentiation.cpp:48</div></div>
 <div class="ttc" id="aswap_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/algorithm/swap.html">std::swap</a></div><div class="ttdeci">T swap(T... args)</div></div>
-<div class="ttc" id="agroup__sorting_html_gacf13154d7aa30be4cb9ba17b4dbb9fe7"><div class="ttname"><a href="../../d5/d4c/group__sorting.html#gacf13154d7aa30be4cb9ba17b4dbb9fe7">heapify</a></div><div class="ttdeci">void(* heapify)(int *arr, int n, int i)</div><div class="ttdef"><b>Definition:</b> heap_sort.cpp:48</div></div>
-<div class="ttc" id="agroup__sorting_html_ga359b22ceee97166c94f4f158a8fbab9f"><div class="ttname"><a href="../../d5/d4c/group__sorting.html#ga359b22ceee97166c94f4f158a8fbab9f">heapSort</a></div><div class="ttdeci">auto heapSort</div><div class="ttdef"><b>Definition:</b> heap_sort.cpp:73</div></div>
-<div class="ttc" id="agroup__sorting_html_gae14ac35743d33d7dc11fd74badaa67a6"><div class="ttname"><a href="../../d5/d4c/group__sorting.html#gae14ac35743d33d7dc11fd74badaa67a6">printArray</a></div><div class="ttdeci">auto printArray</div><div class="ttdef"><b>Definition:</b> heap_sort.cpp:36</div></div>
+<div class="ttc" id="agroup__sorting_html_gacb94afd03a985c72f5b8530bc3e7b7ae"><div class="ttname"><a href="../../d5/d4c/group__sorting.html#gacb94afd03a985c72f5b8530bc3e7b7ae">printArray</a></div><div class="ttdeci">void printArray(int *arr, int sz)</div><div class="ttdef"><b>Definition:</b> heap_sort.cpp:36</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jun 20 2020 18:41:08 for Algorithms_in_C++ by
+    <li class="footer">Generated on Sun Jun 21 2020 11:38:03 for Algorithms_in_C++ by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>
