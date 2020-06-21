@@ -265,10 +265,10 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <p>Main function </p>
-<div class="fragment"><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;           {</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <a class="code" href="../../d5/d4c/group__sorting.html#gae1a3968e7947464bee7714f6d43b7002">test</a>();</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;           {</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <a class="code" href="../../d5/d4c/group__sorting.html#gae1a3968e7947464bee7714f6d43b7002">test</a>();</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -529,15 +529,16 @@ template&lt;typename T &gt; </div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="../../d5/d4c/group__sorting.html#ga9ed3e1510afdf3edd06cf2b68769a767">printArray</a>(arr, sz);  <span class="comment">// display array after sorting</span></div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    assert(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/is_sorted.html">std::is_sorted</a>(arr, arr + sz));</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 1 Passed\n========================\n&quot;</span>;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 2\n&quot;</span>;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">double</span> arr2[] = {4.5, -3.6, 7.6, 0, 12.9};</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    sz = <span class="keyword">sizeof</span>(arr2) / <span class="keyword">sizeof</span>(arr2[0]);</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <a class="code" href="../../d5/d4c/group__sorting.html#ga9ed3e1510afdf3edd06cf2b68769a767">printArray</a>(arr2, sz);</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <a class="code" href="../../d5/d4c/group__sorting.html#ga29d28b140174dbdde7c9f5157758435f">heapSort</a>(arr2, sz);</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <a class="code" href="../../d5/d4c/group__sorting.html#ga9ed3e1510afdf3edd06cf2b68769a767">printArray</a>(arr2, sz);</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    assert(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/is_sorted.html">std::is_sorted</a>(arr2, arr2 + sz));</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 2 passed\n&quot;</span>;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;}</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 2\n&quot;</span>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordtype">double</span> arr2[] = {4.5, -3.6, 7.6, 0, 12.9};</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    sz = <span class="keyword">sizeof</span>(arr2) / <span class="keyword">sizeof</span>(arr2[0]);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <a class="code" href="../../d5/d4c/group__sorting.html#ga9ed3e1510afdf3edd06cf2b68769a767">printArray</a>(arr2, sz);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <a class="code" href="../../d5/d4c/group__sorting.html#ga29d28b140174dbdde7c9f5157758435f">heapSort</a>(arr2, sz);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <a class="code" href="../../d5/d4c/group__sorting.html#ga9ed3e1510afdf3edd06cf2b68769a767">printArray</a>(arr2, sz);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    assert(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/is_sorted.html">std::is_sorted</a>(arr2, arr2 + sz));</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 2 passed\n&quot;</span>;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -562,7 +563,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jun 21 2020 12:13:45 for Algorithms_in_C++ by
+    <li class="footer">Generated on Sun Jun 21 2020 12:22:42 for Algorithms_in_C++ by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>
