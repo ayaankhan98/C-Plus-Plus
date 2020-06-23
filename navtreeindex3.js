@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"dc/d38/ordinary__least__squares__regressor_8cpp.html#ab6171f4db68a5e50ae0f3500a63acd26":[8,0,4,11,6],
 "dc/d38/ordinary__least__squares__regressor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,4,11,4],
 "dc/d38/ordinary__least__squares__regressor_8cpp.html#aecef32c2a4f39a3f7398949256d180a6":[8,0,4,11,8],
 "dc/d93/trie__modern_8cpp.html":[8,0,0,9],
@@ -180,8 +181,8 @@ var NAVTREEINDEX3 =
 "functions_func.html":[7,2,1],
 "functions_rela.html":[7,2,3],
 "functions_vars.html":[7,2,2],
-"globals.html":[8,1,0],
 "globals.html":[8,1,0,0],
+"globals.html":[8,1,0],
 "globals_a.html":[8,1,0,1],
 "globals_b.html":[8,1,0,2],
 "globals_c.html":[8,1,0,3],
@@ -189,8 +190,8 @@ var NAVTREEINDEX3 =
 "globals_defs.html":[8,1,4],
 "globals_e.html":[8,1,0,5],
 "globals_f.html":[8,1,0,6],
-"globals_func.html":[8,1,1],
 "globals_func.html":[8,1,1,0],
+"globals_func.html":[8,1,1],
 "globals_func_a.html":[8,1,1,1],
 "globals_func_b.html":[8,1,1,2],
 "globals_func_c.html":[8,1,1,3],
