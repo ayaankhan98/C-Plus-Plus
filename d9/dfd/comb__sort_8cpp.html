@@ -100,8 +100,8 @@ $(document).ready(function(){initNavTree('d9/dfd/comb__sort_8cpp.html','../../')
 <p><a href="https://en.wikipedia.org/wiki/Comb_sort">Comb Sort Algorithm (Comb Sort)</a>  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;algorithm&gt;</code><br />
-<code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;cassert&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for comb_sort.cpp:</div>
 <div class="dyncontent">
@@ -267,18 +267,18 @@ Here is the call graph for this function:</div>
 <p>Running predefined tests</p>
 <p>For user interaction</p>
 <div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;           {<span class="comment"></span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">  /// Running predefined tests</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment"></span>  <a class="code" href="../../d9/dfd/comb__sort_8cpp.html#a88ec9ad42717780d6caaff9d3d6977f9">tests</a>();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">    /// Running predefined tests</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment"></span>    <a class="code" href="../../d9/dfd/comb__sort_8cpp.html#a88ec9ad42717780d6caaff9d3d6977f9">tests</a>();</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">  /// For user interaction</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment"></span>  <span class="keywordtype">int</span> n;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; n;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <span class="keywordtype">int</span> *arr = <span class="keyword">new</span> <span class="keywordtype">int</span>[n];</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; n; ++i) std::cin &gt;&gt; arr[i];</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  <a class="code" href="../../d9/dfd/comb__sort_8cpp.html#a0f4e7569090083fb53d5cdeaf0e2974f">CombSort</a>(arr, 0, n);</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; n; ++i) <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; arr[i] &lt;&lt; <span class="charliteral">&#39; &#39;</span>;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  <span class="keyword">delete</span> [] arr;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">    /// For user interaction</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment"></span>    <span class="keywordtype">int</span> n;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; n;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">int</span> *arr = <span class="keyword">new</span> <span class="keywordtype">int</span>[n];</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; n; ++i) std::cin &gt;&gt; arr[i];</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <a class="code" href="../../d9/dfd/comb__sort_8cpp.html#a0f4e7569090083fb53d5cdeaf0e2974f">CombSort</a>(arr, 0, n);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; n; ++i) <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; arr[i] &lt;&lt; <span class="charliteral">&#39; &#39;</span>;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keyword">delete</span>[] arr;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -306,17 +306,17 @@ Here is the call graph for this function:</div>
 <p>Test 1</p>
 <p>Test 2</p>
 <div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;             {<span class="comment"></span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">  /// Test 1</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment"></span>  <span class="keywordtype">int</span> arr1[10] = {34, 56, 6, 23, 76, 34, 76, 343, 4, 76};</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <a class="code" href="../../d9/dfd/comb__sort_8cpp.html#a0f4e7569090083fb53d5cdeaf0e2974f">CombSort</a>(arr1, 0, 10);</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  assert(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/is_sorted.html">std::is_sorted</a>(arr1, arr1 + 10));</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 1 passed\n&quot;</span>;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">    /// Test 1</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment"></span>    <span class="keywordtype">int</span> arr1[10] = {34, 56, 6, 23, 76, 34, 76, 343, 4, 76};</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="../../d9/dfd/comb__sort_8cpp.html#a0f4e7569090083fb53d5cdeaf0e2974f">CombSort</a>(arr1, 0, 10);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    assert(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/is_sorted.html">std::is_sorted</a>(arr1, arr1 + 10));</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 1 passed\n&quot;</span>;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">  /// Test 2</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment"></span>  <span class="keywordtype">int</span> arr2[8] = {-6, 56, -45, 56, 0, -1, 8, 8};</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <a class="code" href="../../d9/dfd/comb__sort_8cpp.html#a0f4e7569090083fb53d5cdeaf0e2974f">CombSort</a>(arr2, 0, 8);</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  assert(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/is_sorted.html">std::is_sorted</a>(arr2, arr2 + 8));</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 2 Passed\n&quot;</span>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">    /// Test 2</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment"></span>    <span class="keywordtype">int</span> arr2[8] = {-6, 56, -45, 56, 0, -1, 8, 8};</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="../../d9/dfd/comb__sort_8cpp.html#a0f4e7569090083fb53d5cdeaf0e2974f">CombSort</a>(arr2, 0, 8);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    assert(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/is_sorted.html">std::is_sorted</a>(arr2, arr2 + 8));</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 2 Passed\n&quot;</span>;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -341,7 +341,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bb1b521853a9c46347182a9d10420771.html">sorting</a></li><li class="navelem"><a class="el" href="../../d9/dfd/comb__sort_8cpp.html">comb_sort.cpp</a></li>
-    <li class="footer">Generated on Tue Jun 23 2020 20:23:08 for Algorithms_in_C++ by
+    <li class="footer">Generated on Tue Jun 23 2020 20:38:43 for Algorithms_in_C++ by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

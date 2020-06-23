@@ -1,6 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"dc/d38/ordinary__least__squares__regressor_8cpp.html#ab6171f4db68a5e50ae0f3500a63acd26":[8,0,4,11,6],
 "dc/d38/ordinary__least__squares__regressor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,4,11,4],
 "dc/d38/ordinary__least__squares__regressor_8cpp.html#aecef32c2a4f39a3f7398949256d180a6":[8,0,4,11,8],
 "dc/d93/trie__modern_8cpp.html":[8,0,0,9],
@@ -45,9 +44,9 @@ var NAVTREEINDEX3 =
 "dd/d2f/class_trie.html#afd8b79959009b554e98ea7128b2886f2":[7,0,32,3],
 "dd/d3b/struct_entry.html":[7,0,8],
 "dd/d3b/struct_entry.html#acef39096ad1bc616755a4c120a713cea":[7,0,8,3],
+"dd/d3b/struct_entry.html#aeda5da9d6e79cb91d566e85af94fc372":[7,0,8,1],
 "dd/d3b/struct_entry.html#aeda5da9d6e79cb91d566e85af94fc372":[7,0,8,0],
 "dd/d3b/struct_entry.html#aeda5da9d6e79cb91d566e85af94fc372":[7,0,8,2],
-"dd/d3b/struct_entry.html#aeda5da9d6e79cb91d566e85af94fc372":[7,0,8,1],
 "dd/d4f/class_solution.html":[7,0,28],
 "dd/d4f/class_solution.html#a0a92d4ba2a822ae87e4c8a7c321024c0":[7,0,28,7],
 "dd/d4f/class_solution.html#a29d19d87d54fe43d3f22221b8fe1b0bc":[7,0,28,0],
@@ -190,8 +189,8 @@ var NAVTREEINDEX3 =
 "globals_defs.html":[8,1,4],
 "globals_e.html":[8,1,0,5],
 "globals_f.html":[8,1,0,6],
-"globals_func.html":[8,1,1,0],
 "globals_func.html":[8,1,1],
+"globals_func.html":[8,1,1,0],
 "globals_func_a.html":[8,1,1,1],
 "globals_func_b.html":[8,1,1,2],
 "globals_func_c.html":[8,1,1,3],
