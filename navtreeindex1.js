@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"d4/def/kohonen__som__topology_8cpp.html#ab3081e021270ba21a9fd88646f6a6e26":[8,0,2,1,13],
 "d4/def/kohonen__som__topology_8cpp.html#ac4010fe3a52a74e8b5b1aaadfe38b46f":[8,0,2,1,15],
 "d4/def/kohonen__som__topology_8cpp.html#adc731720947b4bc2ab047c141e7d0299":[8,0,2,1,5],
 "d5/d15/classcll.html":[7,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "d8/dab/classstatistics_1_1stats__computer2.html#a80099005c6e5f9569b75da0e49b14cf6":[7,0,1,1,7],
 "d8/dab/classstatistics_1_1stats__computer2.html#a8290966ad468f2a8c266d008bc60720e":[7,0,1,1,0],
 "d8/dab/classstatistics_1_1stats__computer2.html#a8daf58bdecd775b8a83ce9ad70c014c4":[7,0,1,1,5],
-"d8/dab/classstatistics_1_1stats__computer2.html#acf2e84df4fc386bb3295016ef8fd156e":[7,0,1,1,2],
-"d8/dab/classstatistics_1_1stats__computer2.html#ade6de704deea24fdc88077b3d9a0d534":[7,0,1,1,1]
+"d8/dab/classstatistics_1_1stats__computer2.html#acf2e84df4fc386bb3295016ef8fd156e":[7,0,1,1,2]
 };
