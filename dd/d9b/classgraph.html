@@ -195,10 +195,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
   </table>
   </dd>
 </dl>
-<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                                {</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    adj[u - 1].push_back(v - 1);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    adj[v - 1].push_back(u - 1);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                                {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    adj[u - 1].push_back(v - 1);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    adj[v - 1].push_back(u - 1);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -227,17 +227,17 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
 
 <p>Utility function to perform depth first search on graph. </p>
 <p>Function that perfoms depth first search algorithm on graph. </p>
-<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                               {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">int</span> n = adj.size();</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">vector&lt;bool&gt;</a> visited(n, <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; n; i++) {</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">if</span> (!visited[i]) {</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <a class="code" href="../../dd/d9b/classgraph.html#a6398e513b9574e029fbee07c6ac6e028">explore</a>(i, visited);</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <a class="code" href="../../dd/d9b/classgraph.html#a822dcbe7978a9fa026f2b37f1a52f5e9">connected_components</a>++;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        }</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                               {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordtype">int</span> n = adj.size();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">vector&lt;bool&gt;</a> visited(n, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; n; i++) {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">if</span> (!visited[i]) {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <a class="code" href="../../dd/d9b/classgraph.html#a6398e513b9574e029fbee07c6ac6e028">explore</a>(i, visited);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <a class="code" href="../../dd/d9b/classgraph.html#a822dcbe7978a9fa026f2b37f1a52f5e9">connected_components</a>++;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        }</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -290,14 +290,14 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="fragment"><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                                                {</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    visited[u] = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">auto</span> v : adj[u]) {</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">if</span> (!visited[v]) {</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            <a class="code" href="../../dd/d9b/classgraph.html#a6398e513b9574e029fbee07c6ac6e028">explore</a>(v, visited);</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        }</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                                                {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    visited[u] = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">auto</span> v : adj[u]) {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">if</span> (!visited[v]) {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <a class="code" href="../../dd/d9b/classgraph.html#a6398e513b9574e029fbee07c6ac6e028">explore</a>(v, visited);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        }</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -326,10 +326,10 @@ Here is the call graph for this function:</div>
 
 <p>Function the calculates the connected compoents in the graph by performing the depth first search on graph. </p>
 <dl class="section return"><dt>Returns</dt><dd>connected_components total connected components in graph </dd></dl>
-<div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                                 {</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="../../dd/d9b/classgraph.html#a135921a59082b669678b029b301b8a1c">depth_first_search</a>();</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../dd/d9b/classgraph.html#a822dcbe7978a9fa026f2b37f1a52f5e9">connected_components</a>;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                 {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <a class="code" href="../../dd/d9b/classgraph.html#a135921a59082b669678b029b301b8a1c">depth_first_search</a>();</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../dd/d9b/classgraph.html#a822dcbe7978a9fa026f2b37f1a52f5e9">connected_components</a>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -346,14 +346,14 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="avector_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a></div><div class="ttdoc">STL class.</div></div>
-<div class="ttc" id="aclassgraph_html_a6398e513b9574e029fbee07c6ac6e028"><div class="ttname"><a href="../../dd/d9b/classgraph.html#a6398e513b9574e029fbee07c6ac6e028">graph::explore</a></div><div class="ttdeci">void explore(int, vector&lt; bool &gt; &amp;)</div><div class="ttdoc">Utility function that explores given vertex in graph.</div><div class="ttdef"><b>Definition:</b> connected_components.cpp:102</div></div>
-<div class="ttc" id="aclassgraph_html_a135921a59082b669678b029b301b8a1c"><div class="ttname"><a href="../../dd/d9b/classgraph.html#a135921a59082b669678b029b301b8a1c">graph::depth_first_search</a></div><div class="ttdeci">void depth_first_search()</div><div class="ttdoc">Utility function to perform depth first search on graph.</div><div class="ttdef"><b>Definition:</b> connected_components.cpp:84</div></div>
-<div class="ttc" id="aclassgraph_html_a822dcbe7978a9fa026f2b37f1a52f5e9"><div class="ttname"><a href="../../dd/d9b/classgraph.html#a822dcbe7978a9fa026f2b37f1a52f5e9">graph::connected_components</a></div><div class="ttdeci">int connected_components</div><div class="ttdoc">keep track of connected components</div><div class="ttdef"><b>Definition:</b> connected_components.cpp:40</div></div>
+<div class="ttc" id="aclassgraph_html_a6398e513b9574e029fbee07c6ac6e028"><div class="ttname"><a href="../../dd/d9b/classgraph.html#a6398e513b9574e029fbee07c6ac6e028">graph::explore</a></div><div class="ttdeci">void explore(int, vector&lt; bool &gt; &amp;)</div><div class="ttdoc">Utility function that explores given vertex in graph.</div><div class="ttdef"><b>Definition:</b> connected_components.cpp:105</div></div>
+<div class="ttc" id="aclassgraph_html_a135921a59082b669678b029b301b8a1c"><div class="ttname"><a href="../../dd/d9b/classgraph.html#a135921a59082b669678b029b301b8a1c">graph::depth_first_search</a></div><div class="ttdeci">void depth_first_search()</div><div class="ttdoc">Utility function to perform depth first search on graph.</div><div class="ttdef"><b>Definition:</b> connected_components.cpp:87</div></div>
+<div class="ttc" id="aclassgraph_html_a822dcbe7978a9fa026f2b37f1a52f5e9"><div class="ttname"><a href="../../dd/d9b/classgraph.html#a822dcbe7978a9fa026f2b37f1a52f5e9">graph::connected_components</a></div><div class="ttdeci">int connected_components</div><div class="ttdoc">keep track of connected components</div><div class="ttdef"><b>Definition:</b> connected_components.cpp:43</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d9b/classgraph.html">graph</a></li>
-    <li class="footer">Generated on Wed Jun 24 2020 22:45:21 for Algorithms_in_C++ by
+    <li class="footer">Generated on Thu Jun 25 2020 07:34:37 for Algorithms_in_C++ by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>
