@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d" target="_top" xlink:title="Function to add a edge between two nodes or vertices of graph.">
+<g id="a_node2"><a xlink:href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d" target="_top" xlink:title="Function that add edge between two nodes or vertices of graph.">
 <polygon fill="white" stroke="black" points="113,-44 113,-63 198,-63 198,-44 113,-44"/>
 <text text-anchor="middle" x="155.5" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">graph::addEdge</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../dd/d9b/classgraph.html#a135921a59082b669678b029b301b8a1c" target="_top" xlink:title="Utility function to perform depth first search on graph.">
+<g id="a_node4"><a xlink:href="../../dd/d9b/classgraph.html#a135921a59082b669678b029b301b8a1c" target="_top" xlink:title="Function that perfoms depth first search algorithm on graph.">
 <polygon fill="white" stroke="black" points="273,-0.5 273,-30.5 365,-30.5 365,-0.5 273,-0.5"/>
 <text text-anchor="start" x="281" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">graph::depth_first</text>
 <text text-anchor="middle" x="319" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">_search</text>
@@ -67,7 +67,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../dd/d9b/classgraph.html#a6398e513b9574e029fbee07c6ac6e028" target="_top" xlink:title="Utility function that explores given vertex in graph.">
+<g id="a_node5"><a xlink:href="../../dd/d9b/classgraph.html#a6398e513b9574e029fbee07c6ac6e028" target="_top" xlink:title="Utility function for depth first seach algorithm this function explores the vertex which is passed in...">
 <polygon fill="white" stroke="black" points="401,-6 401,-25 479,-25 479,-6 401,-6"/>
 <text text-anchor="middle" x="440" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">graph::explore</text>
 </a>

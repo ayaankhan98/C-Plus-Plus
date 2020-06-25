@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../dd/d9b/classgraph.html#a135921a59082b669678b029b301b8a1c" target="_top" xlink:title="Utility function to perform depth first search on graph.">
+<g id="a_node2"><a xlink:href="../../dd/d9b/classgraph.html#a135921a59082b669678b029b301b8a1c" target="_top" xlink:title="Function that perfoms depth first search algorithm on graph.">
 <polygon fill="white" stroke="black" points="199,-0.5 199,-30.5 291,-30.5 291,-0.5 199,-0.5"/>
 <text text-anchor="start" x="207" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">graph::depth_first</text>
 <text text-anchor="middle" x="245" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">_search</text>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../dd/d9b/classgraph.html#a6398e513b9574e029fbee07c6ac6e028" target="_top" xlink:title="Utility function that explores given vertex in graph.">
+<g id="a_node3"><a xlink:href="../../dd/d9b/classgraph.html#a6398e513b9574e029fbee07c6ac6e028" target="_top" xlink:title="Utility function for depth first seach algorithm this function explores the vertex which is passed in...">
 <polygon fill="white" stroke="black" points="327,-6 327,-25 405,-25 405,-6 327,-6"/>
 <text text-anchor="middle" x="366" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">graph::explore</text>
 </a>
