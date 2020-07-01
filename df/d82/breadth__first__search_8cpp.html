@@ -100,8 +100,8 @@ $(document).ready(function(){initNavTree('df/d82/breadth__first__search_8cpp.htm
 <p><a href="https://en.wikipedia.org/wiki/Breadth-first_search">Breadth First Search Algorithm (Breadth First Search)</a>  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;queue&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for breadth_first_search.cpp:</div>
 <div class="dyncontent">
@@ -187,15 +187,15 @@ Functions</h2></td></tr>
 <p>Here we are considering directed graph that's the reason we are adding v to the adjacency list representation of u but not adding u to the adjacency list representation of v</p>
 <p>in case of a un-directed graph you can un comment the statement below.</p>
 <div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                                                                 {<span class="comment"></span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">  /**</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">   * Here we are considering directed graph that&#39;s the</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">   * reason we are adding v to the adjacency list representation of u</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">   * but not adding u to the adjacency list representation of v</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">   *</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">   * in case of a un-directed graph you can un comment the statement below.</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">   */</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  adj[u - 1].<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/push_back.html">push_back</a>(v - 1);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="comment">// adj[v - 1].push_back(u -1);</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">    /**</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">     * Here we are considering directed graph that&#39;s the</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">     * reason we are adding v to the adjacency list representation of u</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">     * but not adding u to the adjacency list representation of v</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">     *</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">     * in case of a un-directed graph you can un comment the statement below.</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">     */</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    adj[u - 1].<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/push_back.html">push_back</a>(v - 1);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="comment">// adj[v - 1].push_back(u -1);</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -253,13 +253,13 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">    /// marking the start vertex as visited</span></div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment"></span>    visited[start] = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    tracker.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/queue/push.html">push</a>(start);</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">while</span>(!tracker.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/queue/empty.html">empty</a>()) {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">while</span> (!tracker.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/queue/empty.html">empty</a>()) {</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordtype">size_t</span> vertex = tracker.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/queue/front.html">front</a>();</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        tracker.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/queue/pop.html">pop</a>();</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; vertex &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">auto</span> x : adj[vertex]) {<span class="comment"></span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">          /// if the vertex is not visited then mark this as visited</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment">          /// and push it to the queue</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">            /// if the vertex is not visited then mark this as visited</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment">            /// and push it to the queue</span></div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment"></span>            <span class="keywordflow">if</span> (!visited[x]) {</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                visited[x] = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                tracker.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/queue/push.html">push</a>(x);</div>
@@ -306,7 +306,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="comment"></span>    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;int&gt;</a>&gt; adj(vertices, <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a>());</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="comment"></span> </div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="comment">    /// taking input for edges</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="comment"></span>    <span class="keywordflow">while</span>(edges--) {</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="comment"></span>    <span class="keywordflow">while</span> (edges--) {</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordtype">size_t</span> u, v;</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; u &gt;&gt; v;</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <a class="code" href="../../df/d82/breadth__first__search_8cpp.html#a992cd12af305656802c57c2744deee5d">addEdge</a>(adj, u, v);</div>
