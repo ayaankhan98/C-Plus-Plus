@@ -20,7 +20,7 @@ var searchData=
   ['add_5fpointer_22',['add_pointer',['http://en.cppreference.com/w/cpp/types/add_pointer.html',0,'std']]],
   ['add_5frvalue_5freference_23',['add_rvalue_reference',['http://en.cppreference.com/w/cpp/types/add_reference.html',0,'std']]],
   ['add_5fvolatile_24',['add_volatile',['http://en.cppreference.com/w/cpp/types/add_cv.html',0,'std']]],
-  ['addedge_25',['addEdge',['../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d',1,'graph::addEdge()'],['../da/d9a/class_graph.html#af765dda8f21280e1cecea19e129f1bc5',1,'Graph::addEdge(Edge const &amp;edge)'],['../da/d9a/class_graph.html#ac85c63bcca4764a621f9f8609a8e5910',1,'Graph::addEdge(unsigned int source, unsigned int destination)']]],
+  ['addedge_25',['addEdge',['../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d',1,'graph::addEdge()'],['../da/d9a/class_graph.html#af765dda8f21280e1cecea19e129f1bc5',1,'Graph::addEdge(Edge const &amp;edge)'],['../da/d9a/class_graph.html#ac85c63bcca4764a621f9f8609a8e5910',1,'Graph::addEdge(unsigned int source, unsigned int destination)'],['../df/d82/breadth__first__search_8cpp.html#a992cd12af305656802c57c2744deee5d',1,'addEdge():&#160;breadth_first_search.cpp']]],
   ['addition_5frule_2ecpp_26',['addition_rule.cpp',['../d6/d4a/addition__rule_8cpp.html',1,'']]],
   ['addition_5frule_5fdependent_27',['addition_rule_dependent',['../d6/d4a/addition__rule_8cpp.html#a565ffcbbdbe496ced37250bc8dc36bc0',1,'addition_rule.cpp']]],
   ['addition_5frule_5findependent_28',['addition_rule_independent',['../d6/d4a/addition__rule_8cpp.html#a4adfd055c758546456d440ee9133555d',1,'addition_rule.cpp']]],
