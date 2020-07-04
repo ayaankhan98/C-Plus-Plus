@@ -1,11 +1,10 @@
 <map id="main" name="main">
 <area shape="rect" id="node1" title=" " alt="" coords="5,56,56,83"/>
-<area shape="rect" id="node2" href="$df/d82/breadth__first__search_8cpp.html#ad033d577caee5360f34a685e196fe3d9" title="Adds and edge between two vertices of graph say u and v in this case." alt="" coords="135,5,209,32"/>
-<area shape="rect" id="node3" href="$df/d82/breadth__first__search_8cpp.html#a52fd71e71134c2addbd409e5a590cbaf" title="Function performs the breadth first search algorithm over the graph." alt="" coords="104,132,240,159"/>
-<area shape="rect" id="node5" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/io/manip/endl.html#" title=" " alt="" coords="315,31,387,57"/>
-<area shape="rect" id="node4" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/queue/empty.html#" title=" " alt="" coords="288,81,415,108"/>
-<area shape="rect" id="node6" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/queue/front.html#" title=" " alt="" coords="293,132,410,159"/>
-<area shape="rect" id="node7" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/queue/pop.html#" title=" " alt="" coords="295,183,407,209"/>
-<area shape="rect" id="node8" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/queue/push.html#" title=" " alt="" coords="292,233,411,260"/>
-<area shape="rect" id="node9" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/size.html#" title=" " alt="" coords="293,284,409,311"/>
+<area shape="rect" id="node2" href="$dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d" title="Function that add edge between two nodes or vertices of graph." alt="" coords="113,5,226,32"/>
+<area shape="rect" id="node3" href="$df/dce/namespacegraph.html#a4c07a74fc1144cb91202ae0e9a4640ed" title="Function performs the breadth first search algorithm over the graph." alt="" coords="104,118,235,159"/>
+<area shape="rect" id="node5" href="/Users/runner/runners/2.169.1/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/io/manip/endl.html#" title=" " alt="" coords="310,45,382,72"/>
+<area shape="rect" id="node4" href="/Users/runner/runners/2.169.1/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/queue/empty.html#" title=" " alt="" coords="283,96,409,123"/>
+<area shape="rect" id="node6" href="/Users/runner/runners/2.169.1/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/queue/front.html#" title=" " alt="" coords="287,147,405,173"/>
+<area shape="rect" id="node7" href="/Users/runner/runners/2.169.1/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/queue/pop.html#" title=" " alt="" coords="290,197,402,224"/>
+<area shape="rect" id="node8" href="/Users/runner/runners/2.169.1/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/queue/push.html#" title=" " alt="" coords="287,248,405,275"/>
 </map>
