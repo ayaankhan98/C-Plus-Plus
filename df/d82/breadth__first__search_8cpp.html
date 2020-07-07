@@ -101,10 +101,10 @@ $(document).ready(function(){initNavTree('df/d82/breadth__first__search_8cpp.htm
 <p><a href="https://en.wikipedia.org/wiki/Breadth-first_search">Breadth First Search Algorithm (Breadth First Search)</a>  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;cassert&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;queue&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;cassert&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for breadth_first_search.cpp:</div>
 <div class="dyncontent">
@@ -174,32 +174,32 @@ Functions</h2></td></tr>
 <p>creating a graph</p>
 <p>taking input for edges</p>
 <p>running Breadth First Search Algorithm on the graph</p>
-<div class="fragment"><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;           {<span class="comment"></span></div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="comment">    /// running predefined test cases</span></div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="comment"></span>    <a class="code" href="../../df/d82/breadth__first__search_8cpp.html#a88ec9ad42717780d6caaff9d3d6977f9">tests</a>();</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160; </div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <span class="keywordtype">size_t</span> vertices, edges;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter the number of vertices : &quot;</span>;</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; vertices;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter the number of edges : &quot;</span>;</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; edges;</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="comment">    /// creating a graph</span></div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="comment"></span>    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;int&gt;</a>&gt; adj(vertices, <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a>());</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="comment">    /// taking input for edges</span></div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="comment"></span>    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter vertices in pair which have edges between them : &quot;</span></div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;              &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keywordflow">while</span> (edges--) {</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordtype">int</span> u, v;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; u &gt;&gt; v;</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;adj, u, v);</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    }</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;<span class="comment">    /// running Breadth First Search Algorithm on the graph</span></div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="comment"></span>    <a class="code" href="../../df/dce/namespacegraph.html#afe9bfdfdcd95d48d12bf675f26066110">graph::beadth_first_search</a>(adj, 0);</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;           {<span class="comment"></span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="comment">    /// running predefined test cases</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="comment"></span>    <a class="code" href="../../df/d82/breadth__first__search_8cpp.html#a88ec9ad42717780d6caaff9d3d6977f9">tests</a>();</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160; </div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keywordtype">size_t</span> vertices, edges;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter the number of vertices : &quot;</span>;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; vertices;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter the number of edges : &quot;</span>;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; edges;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="comment">    /// creating a graph</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="comment"></span>    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;int&gt;</a>&gt; adj(vertices, <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a>());</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="comment">    /// taking input for edges</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="comment"></span>    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter vertices in pair which have edges between them : &quot;</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;              &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordflow">while</span> (edges--) {</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <span class="keywordtype">int</span> u, v;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; u &gt;&gt; v;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;adj, u, v);</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;<span class="comment">    /// running Breadth First Search Algorithm on the graph</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="comment"></span>    <a class="code" href="../../df/dce/namespacegraph.html#afe9bfdfdcd95d48d12bf675f26066110">graph::beadth_first_search</a>(adj, 0);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -226,58 +226,58 @@ Here is the call graph for this function:</div>
 <p>Test 1 Begin</p>
 <p>Test 2 Begin clear data from previous test</p>
 <p>Test 3 Begins clear data from previous test</p>
-<div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;             {</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Initiating Tests&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="comment">    /// Test 1 Begin</span></div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="comment"></span>    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;int&gt;</a>&gt; graphData(4, <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a>());</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 1, 2);</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 1, 3);</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 2, 3);</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 3, 1);</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 3, 4);</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 4, 4);</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a> returnedResult = <a class="code" href="../../df/dce/namespacegraph.html#afe9bfdfdcd95d48d12bf675f26066110">graph::beadth_first_search</a>(graphData, 2);</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a> correctResult = {3, 1, 4, 2};</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160; </div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    assert(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/equal.html">std::equal</a>(correctResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/begin.html">begin</a>(), correctResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/end.html">end</a>(),</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                      returnedResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/begin.html">begin</a>()));</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a>&lt;&lt; <span class="stringliteral">&quot;Test 1 Passed...&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="comment">    /// Test 2 Begin</span></div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="comment">    /// clear data from previous test</span></div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="comment"></span>    returnedResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/clear.html">clear</a>();</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    correctResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/clear.html">clear</a>();</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160; </div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    returnedResult = <a class="code" href="../../df/dce/namespacegraph.html#afe9bfdfdcd95d48d12bf675f26066110">graph::beadth_first_search</a>(graphData, 0);</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    correctResult = {1, 2, 3, 4};</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160; </div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    assert(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/equal.html">std::equal</a>(correctResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/begin.html">begin</a>(), correctResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/end.html">end</a>(),</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                      returnedResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/begin.html">begin</a>()));</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a>&lt;&lt; <span class="stringliteral">&quot;Test 2 Passed...&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="comment">    /// Test 3 Begins</span></div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="comment">    /// clear data from previous test</span></div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="comment"></span>    graphData.clear();</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    returnedResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/clear.html">clear</a>();</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    correctResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/clear.html">clear</a>();</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160; </div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    graphData.resize(6);</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 1, 2);</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 1, 3);</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 2, 4);</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 3, 4);</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 2, 5);</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 4, 6);</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160; </div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    returnedResult = <a class="code" href="../../df/dce/namespacegraph.html#afe9bfdfdcd95d48d12bf675f26066110">graph::beadth_first_search</a>(graphData, 0);</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    correctResult = {1, 2, 3, 4, 5, 6};</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160; </div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    assert(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/equal.html">std::equal</a>(correctResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/begin.html">begin</a>(), correctResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/end.html">end</a>(),</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                      returnedResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/begin.html">begin</a>()));</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a>&lt;&lt; <span class="stringliteral">&quot;Test 3 Passed...&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;             {</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Initiating Tests&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="comment">    /// Test 1 Begin</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="comment"></span>    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;int&gt;</a>&gt; graphData(4, <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a>());</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 1, 2);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 1, 3);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 2, 3);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 3, 1);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 3, 4);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 4, 4);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a> returnedResult = <a class="code" href="../../df/dce/namespacegraph.html#afe9bfdfdcd95d48d12bf675f26066110">graph::beadth_first_search</a>(graphData, 2);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a> correctResult = {3, 1, 4, 2};</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160; </div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    assert(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/equal.html">std::equal</a>(correctResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/begin.html">begin</a>(), correctResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/end.html">end</a>(),</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                      returnedResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/begin.html">begin</a>()));</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 1 Passed...&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="comment">    /// Test 2 Begin</span></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="comment">    /// clear data from previous test</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="comment"></span>    returnedResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/clear.html">clear</a>();</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    correctResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/clear.html">clear</a>();</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160; </div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    returnedResult = <a class="code" href="../../df/dce/namespacegraph.html#afe9bfdfdcd95d48d12bf675f26066110">graph::beadth_first_search</a>(graphData, 0);</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    correctResult = {1, 2, 3, 4};</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160; </div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    assert(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/equal.html">std::equal</a>(correctResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/begin.html">begin</a>(), correctResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/end.html">end</a>(),</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                      returnedResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/begin.html">begin</a>()));</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 2 Passed...&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="comment">    /// Test 3 Begins</span></div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="comment">    /// clear data from previous test</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="comment"></span>    graphData.clear();</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    returnedResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/clear.html">clear</a>();</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    correctResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/clear.html">clear</a>();</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160; </div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    graphData.resize(6);</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 1, 2);</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 1, 3);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 2, 4);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 3, 4);</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 2, 5);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;graphData, 4, 6);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    returnedResult = <a class="code" href="../../df/dce/namespacegraph.html#afe9bfdfdcd95d48d12bf675f26066110">graph::beadth_first_search</a>(graphData, 0);</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    correctResult = {1, 2, 3, 4, 5, 6};</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160; </div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    assert(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/equal.html">std::equal</a>(correctResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/begin.html">begin</a>(), correctResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/end.html">end</a>(),</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                      returnedResult.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/begin.html">begin</a>()));</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 3 Passed...&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -294,7 +294,7 @@ Here is the call graph for this function:</div>
 <div class="ttc" id="aclear_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector/clear.html">std::vector::clear</a></div><div class="ttdeci">T clear(T... args)</div></div>
 <div class="ttc" id="anamespacegraph_html_afe9bfdfdcd95d48d12bf675f26066110"><div class="ttname"><a href="../../df/dce/namespacegraph.html#afe9bfdfdcd95d48d12bf675f26066110">graph::beadth_first_search</a></div><div class="ttdeci">std::vector&lt; int &gt; beadth_first_search(const std::vector&lt; std::vector&lt; int &gt;&gt; &amp;adj, int start)</div><div class="ttdoc">Function performs the breadth first search algorithm over the graph.</div><div class="ttdef"><b>Definition:</b> breadth_first_search.cpp:87</div></div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
-<div class="ttc" id="abreadth__first__search_8cpp_html_a88ec9ad42717780d6caaff9d3d6977f9"><div class="ttname"><a href="../../df/d82/breadth__first__search_8cpp.html#a88ec9ad42717780d6caaff9d3d6977f9">tests</a></div><div class="ttdeci">void tests()</div><div class="ttdef"><b>Definition:</b> breadth_first_search.cpp:119</div></div>
+<div class="ttc" id="abreadth__first__search_8cpp_html_a88ec9ad42717780d6caaff9d3d6977f9"><div class="ttname"><a href="../../df/d82/breadth__first__search_8cpp.html#a88ec9ad42717780d6caaff9d3d6977f9">tests</a></div><div class="ttdeci">void tests()</div><div class="ttdef"><b>Definition:</b> breadth_first_search.cpp:117</div></div>
 <div class="ttc" id="aendl_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a></div><div class="ttdeci">T endl(T... args)</div></div>
 <div class="ttc" id="abegin_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector/begin.html">std::vector::begin</a></div><div class="ttdeci">T begin(T... args)</div></div>
 <div class="ttc" id="aend_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector/end.html">std::vector::end</a></div><div class="ttdeci">T end(T... args)</div></div>
