@@ -118,8 +118,8 @@ var NAVTREEINDEX3 =
 "dd/d2f/class_trie.html#afd8b79959009b554e98ea7128b2886f2":[7,0,34,3],
 "dd/d3b/struct_entry.html":[7,0,10],
 "dd/d3b/struct_entry.html#acef39096ad1bc616755a4c120a713cea":[7,0,10,3],
-"dd/d3b/struct_entry.html#aeda5da9d6e79cb91d566e85af94fc372":[7,0,10,1],
 "dd/d3b/struct_entry.html#aeda5da9d6e79cb91d566e85af94fc372":[7,0,10,0],
+"dd/d3b/struct_entry.html#aeda5da9d6e79cb91d566e85af94fc372":[7,0,10,1],
 "dd/d3b/struct_entry.html#aeda5da9d6e79cb91d566e85af94fc372":[7,0,10,2],
 "dd/d4f/class_solution.html":[7,0,30],
 "dd/d4f/class_solution.html#a0a92d4ba2a822ae87e4c8a7c321024c0":[7,0,30,7],
@@ -227,9 +227,10 @@ var NAVTREEINDEX3 =
 "df/d39/interpolation__search2_8cpp.html#aa3ec659ec8394d186c761df81ad1f629":[8,0,10,4,0],
 "df/d39/interpolation__search2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,10,4,1],
 "df/d82/breadth__first__search_8cpp.html":[8,0,3,0],
-"df/d82/breadth__first__search_8cpp.html#a64869d64f062a49918b4cc95ac9ec32f":[8,0,3,0,1],
+"df/d82/breadth__first__search_8cpp.html#a372ff051a7bc6c91d34a7b58edf8dfce":[8,0,3,0,0],
+"df/d82/breadth__first__search_8cpp.html#a88ec9ad42717780d6caaff9d3d6977f9":[8,0,3,0,3],
 "df/d82/breadth__first__search_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,3,0,2],
-"df/d82/breadth__first__search_8cpp.html#af757d199d8968d07f20e73b31451678a":[8,0,3,0,0],
+"df/d82/breadth__first__search_8cpp.html#afe9bfdfdcd95d48d12bf675f26066110":[8,0,3,0,1],
 "df/dc8/successive__approximation_8cpp.html":[8,0,6,15],
 "df/dc8/successive__approximation_8cpp.html#a79c1d08919ff7780a5d7723172602389":[8,0,6,15,0],
 "df/dc8/successive__approximation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,6,15,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "dir_074119ce3a874b57120c49a0cc4bb5ad.html":[8,0,9],
 "dir_12552d7fa429bf94a2e32e5cf39f7e69.html":[8,0,3],
 "dir_19b2bf9199a15c634a08b1ede1dd896a.html":[8,0,10],
-"dir_296d53ceaeaa7e099814a6def439fe8a.html":[8,0,5],
-"dir_2e746e9d06bf2d8ff842208bcc6ebcfc.html":[8,0,1]
+"dir_296d53ceaeaa7e099814a6def439fe8a.html":[8,0,5]
 };
