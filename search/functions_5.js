@@ -44,7 +44,7 @@ var searchData=
   ['exp_2894',['exp',['http://en.cppreference.com/w/cpp/numeric/math/exp.html',0,'std']]],
   ['exp2_2895',['exp2',['http://en.cppreference.com/w/cpp/numeric/math/exp2.html',0,'std']]],
   ['expired_2896',['expired',['http://en.cppreference.com/w/cpp/memory/weak_ptr/expired.html',0,'std::weak_ptr']]],
-  ['explore_2897',['explore',['../dd/d9b/classgraph.html#a6398e513b9574e029fbee07c6ac6e028',1,'graph::explore()'],['../df/dce/namespacegraph.html#a58b4fa6cfccf875354b82afbbe7cacfd',1,'graph::explore()']]],
+  ['explore_2897',['explore',['../dd/d9b/classgraph.html#a6398e513b9574e029fbee07c6ac6e028',1,'graph::explore()'],['../df/dce/namespacegraph.html#a48acac475cb48614279e7ea784c32fc3',1,'graph::explore()']]],
   ['expm1_2898',['expm1',['http://en.cppreference.com/w/cpp/numeric/math/expm1.html',0,'std']]],
   ['exponential_5fdistribution_2899',['exponential_distribution',['http://en.cppreference.com/w/cpp/numeric/random/exponential_distribution/exponential_distribution.html',0,'std::exponential_distribution']]],
   ['extendedeuclid_2900',['extendedEuclid',['../d9/d5d/extended__euclid__algorithm_8cpp.html#acba15ca55b3e7dcb91f3c65d72ba052d',1,'extended_euclid_algorithm.cpp']]],

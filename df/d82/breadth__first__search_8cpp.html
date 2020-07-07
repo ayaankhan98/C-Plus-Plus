@@ -121,9 +121,9 @@ Functions</h2></td></tr>
 <tr class="memitem:af757d199d8968d07f20e73b31451678a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dce/namespacegraph.html#af757d199d8968d07f20e73b31451678a">graph::addEdge</a> (<a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; int &gt;&gt; *adj, size_t u, size_t v)</td></tr>
 <tr class="memdesc:af757d199d8968d07f20e73b31451678a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds and edge between two vertices of graph say u and v in this case.  <a href="../../df/dce/namespacegraph.html#af757d199d8968d07f20e73b31451678a">More...</a><br /></td></tr>
 <tr class="separator:af757d199d8968d07f20e73b31451678a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c07a74fc1144cb91202ae0e9a4640ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dce/namespacegraph.html#a4c07a74fc1144cb91202ae0e9a4640ed">graph::beadth_first_search</a> (<a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; int &gt;&gt; *adj, size_t start)</td></tr>
-<tr class="memdesc:a4c07a74fc1144cb91202ae0e9a4640ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function performs the breadth first search algorithm over the graph.  <a href="../../df/dce/namespacegraph.html#a4c07a74fc1144cb91202ae0e9a4640ed">More...</a><br /></td></tr>
-<tr class="separator:a4c07a74fc1144cb91202ae0e9a4640ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64869d64f062a49918b4cc95ac9ec32f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dce/namespacegraph.html#a64869d64f062a49918b4cc95ac9ec32f">graph::beadth_first_search</a> (const <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; int &gt;&gt; &amp;adj, size_t start)</td></tr>
+<tr class="memdesc:a64869d64f062a49918b4cc95ac9ec32f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function performs the breadth first search algorithm over the graph.  <a href="../../df/dce/namespacegraph.html#a64869d64f062a49918b4cc95ac9ec32f">More...</a><br /></td></tr>
+<tr class="separator:a64869d64f062a49918b4cc95ac9ec32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d82/breadth__first__search_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -169,33 +169,33 @@ Functions</h2></td></tr>
 <p>creating a graph</p>
 <p>taking input for edges</p>
 <p>running Breadth First Search Algorithm on the graph</p>
-<div class="fragment"><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;           {</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordtype">size_t</span> vertices, edges;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter the number of vertices : &quot;</span>;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; vertices;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter the number of edges : &quot;</span>;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; edges;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="comment">    /// creating a graph</span></div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="comment"></span>    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;int&gt;</a>&gt; adj(vertices, <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a>());</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="comment">    /// taking input for edges</span></div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="comment"></span>    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter vertices in pair which have edges between them : &quot;</span></div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;              &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordflow">while</span> (edges--) {</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordtype">size_t</span> u, v;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; u &gt;&gt; v;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;adj, u, v);</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="comment">    /// running Breadth First Search Algorithm on the graph</span></div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="comment"></span>    <a class="code" href="../../df/dce/namespacegraph.html#a4c07a74fc1144cb91202ae0e9a4640ed">graph::beadth_first_search</a>(&amp;adj, 2);</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;           {</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordtype">size_t</span> vertices, edges;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter the number of vertices : &quot;</span>;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; vertices;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter the number of edges : &quot;</span>;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; edges;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="comment">    /// creating a graph</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="comment"></span>    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;int&gt;</a>&gt; adj(vertices, <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a>());</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="comment">    /// taking input for edges</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="comment"></span>    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter vertices in pair which have edges between them : &quot;</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;              &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordflow">while</span> (edges--) {</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <span class="keywordtype">size_t</span> u, v;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; u &gt;&gt; v;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <a class="code" href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a>(&amp;adj, u, v);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    }</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="comment">    /// running Breadth First Search Algorithm on the graph</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="comment"></span>    <a class="code" href="../../df/dce/namespacegraph.html#a64869d64f062a49918b4cc95ac9ec32f">graph::beadth_first_search</a>(adj, 2);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d82/breadth__first__search_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.svg" width="415" height="280"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d82/breadth__first__search_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.svg" width="415" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -206,9 +206,9 @@ Here is the call graph for this function:</div>
 <div class="ttc" id="avector_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a></div><div class="ttdoc">STL class.</div></div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
 <div class="ttc" id="aendl_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a></div><div class="ttdeci">T endl(T... args)</div></div>
+<div class="ttc" id="anamespacegraph_html_a64869d64f062a49918b4cc95ac9ec32f"><div class="ttname"><a href="../../df/dce/namespacegraph.html#a64869d64f062a49918b4cc95ac9ec32f">graph::beadth_first_search</a></div><div class="ttdeci">void beadth_first_search(const std::vector&lt; std::vector&lt; int &gt;&gt; &amp;adj, size_t start)</div><div class="ttdoc">Function performs the breadth first search algorithm over the graph.</div><div class="ttdef"><b>Definition:</b> breadth_first_search.cpp:85</div></div>
 <div class="ttc" id="abasic_istream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a></div></div>
 <div class="ttc" id="aclassgraph_html_a35c12fba596d8bb48b1877b128c4ba6d"><div class="ttname"><a href="../../dd/d9b/classgraph.html#a35c12fba596d8bb48b1877b128c4ba6d">graph::addEdge</a></div><div class="ttdeci">void addEdge(int, int)</div><div class="ttdoc">Function that add edge between two nodes or vertices of graph.</div><div class="ttdef"><b>Definition:</b> connected_components.cpp:75</div></div>
-<div class="ttc" id="anamespacegraph_html_a4c07a74fc1144cb91202ae0e9a4640ed"><div class="ttname"><a href="../../df/dce/namespacegraph.html#a4c07a74fc1144cb91202ae0e9a4640ed">graph::beadth_first_search</a></div><div class="ttdeci">void beadth_first_search(std::vector&lt; std::vector&lt; int &gt;&gt; *adj, size_t start)</div><div class="ttdoc">Function performs the breadth first search algorithm over the graph.</div><div class="ttdef"><b>Definition:</b> breadth_first_search.cpp:85</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

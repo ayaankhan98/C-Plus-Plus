@@ -227,7 +227,7 @@ var NAVTREEINDEX3 =
 "df/d39/interpolation__search2_8cpp.html#aa3ec659ec8394d186c761df81ad1f629":[8,0,10,4,0],
 "df/d39/interpolation__search2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,10,4,1],
 "df/d82/breadth__first__search_8cpp.html":[8,0,3,0],
-"df/d82/breadth__first__search_8cpp.html#a4c07a74fc1144cb91202ae0e9a4640ed":[8,0,3,0,1],
+"df/d82/breadth__first__search_8cpp.html#a64869d64f062a49918b4cc95ac9ec32f":[8,0,3,0,1],
 "df/d82/breadth__first__search_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,3,0,2],
 "df/d82/breadth__first__search_8cpp.html#af757d199d8968d07f20e73b31451678a":[8,0,3,0,0],
 "df/dc8/successive__approximation_8cpp.html":[8,0,6,15],
