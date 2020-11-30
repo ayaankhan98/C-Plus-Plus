@@ -1,5 +1,10 @@
 var NAVTREEINDEX4 =
 {
+"df/def/power__for__huge__numbers_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,5,22,1],
+"dir_074119ce3a874b57120c49a0cc4bb5ad.html":[8,0,9],
+"dir_12552d7fa429bf94a2e32e5cf39f7e69.html":[8,0,3],
+"dir_19b2bf9199a15c634a08b1ede1dd896a.html":[8,0,10],
+"dir_296d53ceaeaa7e099814a6def439fe8a.html":[8,0,5],
 "dir_2e746e9d06bf2d8ff842208bcc6ebcfc.html":[8,0,1],
 "dir_3343723ae086de42ee4ca9774da3a13f.html":[8,0,4],
 "dir_4d6e05837bf820fb089a8a8cdf2f42b7.html":[8,0,0],
@@ -60,8 +65,8 @@ var NAVTREEINDEX4 =
 "globals_type.html":[8,1,3],
 "globals_u.html":[8,1,0,19],
 "globals_vars.html":[8,1,2],
-"index.html":[0],
 "index.html":[],
+"index.html":[0],
 "index.html#autotoc_md34":[0,0],
 "index.html#autotoc_md35":[0,1],
 "index.html#autotoc_md36":[0,2],
