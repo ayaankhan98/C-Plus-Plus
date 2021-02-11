@@ -14,7 +14,6 @@ var dir_296d53ceaeaa7e099814a6def439fe8a =
     [ "fibonacci.cpp", "d9/d89/fibonacci_8cpp.html", "d9/d89/fibonacci_8cpp" ],
     [ "fibonacci_fast.cpp", "d4/d32/fibonacci__fast_8cpp.html", "d4/d32/fibonacci__fast_8cpp" ],
     [ "fibonacci_large.cpp", "de/de4/fibonacci__large_8cpp.html", "de/de4/fibonacci__large_8cpp" ],
-    [ "fibonacci_matrix_exponentiation.cpp", "da/dc9/fibonacci__matrix__exponentiation_8cpp.html", "da/dc9/fibonacci__matrix__exponentiation_8cpp" ],
     [ "fibonacci_sum.cpp", "de/dc3/fibonacci__sum_8cpp.html", "de/dc3/fibonacci__sum_8cpp" ],
     [ "gcd_iterative_euclidean.cpp", "d4/da0/gcd__iterative__euclidean_8cpp.html", "d4/da0/gcd__iterative__euclidean_8cpp" ],
     [ "gcd_of_n_numbers.cpp", "d1/d11/gcd__of__n__numbers_8cpp.html", "d1/d11/gcd__of__n__numbers_8cpp" ],
@@ -28,7 +27,6 @@ var dir_296d53ceaeaa7e099814a6def439fe8a =
     [ "least_common_multiple.cpp", "d4/d21/least__common__multiple_8cpp.html", "d4/d21/least__common__multiple_8cpp" ],
     [ "magic_number.cpp", "d9/d44/magic__number_8cpp.html", "d9/d44/magic__number_8cpp" ],
     [ "miller_rabin.cpp", "d6/d42/miller__rabin_8cpp.html", "d6/d42/miller__rabin_8cpp" ],
-    [ "modular_division.cpp", "df/d72/modular__division_8cpp.html", "df/d72/modular__division_8cpp" ],
     [ "modular_exponentiation.cpp", "d0/d6d/modular__exponentiation_8cpp.html", "d0/d6d/modular__exponentiation_8cpp" ],
     [ "modular_inverse_fermat_little_theorem.cpp", "d8/d53/modular__inverse__fermat__little__theorem_8cpp.html", "d8/d53/modular__inverse__fermat__little__theorem_8cpp" ],
     [ "n_choose_r.cpp", "d1/dbb/n__choose__r_8cpp.html", "d1/dbb/n__choose__r_8cpp" ],
@@ -43,6 +41,5 @@ var dir_296d53ceaeaa7e099814a6def439fe8a =
     [ "sqrt_double.cpp", "da/d24/sqrt__double_8cpp.html", "da/d24/sqrt__double_8cpp" ],
     [ "string_fibonacci.cpp", "de/d47/string__fibonacci_8cpp.html", "de/d47/string__fibonacci_8cpp" ],
     [ "sum_of_binomial_coefficient.cpp", "d4/d9d/sum__of__binomial__coefficient_8cpp.html", "d4/d9d/sum__of__binomial__coefficient_8cpp" ],
-    [ "sum_of_digits.cpp", "d4/d83/sum__of__digits_8cpp.html", "d4/d83/sum__of__digits_8cpp" ],
-    [ "vector_cross_product.cpp", "df/d66/vector__cross__product_8cpp.html", "df/d66/vector__cross__product_8cpp" ]
+    [ "sum_of_digits.cpp", "d4/d83/sum__of__digits_8cpp.html", "d4/d83/sum__of__digits_8cpp" ]
 ];

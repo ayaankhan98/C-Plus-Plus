@@ -25,10 +25,10 @@ var namespaces_dup =
       [ "isSafe", "db/dc0/namespacebacktracking.html#a5a6c3c2b065ea1c07adf2f638f8efc43", null ],
       [ "issafe", "db/dc0/namespacebacktracking.html#a531de8cb2d4d16ca63353d9c72158257", null ],
       [ "minimax", "db/dc0/namespacebacktracking.html#a78540bcb5ef3473b2348cbc34748ec50", null ],
-      [ "printMat", "db/dc0/namespacebacktracking.html#ae1a76e21cb3934368d01cea7672d3906", null ],
+      [ "printMat", "db/dc0/namespacebacktracking.html#a4664b23ed7939e3df1c0cb23013eec0c", null ],
       [ "printSolution", "db/dc0/namespacebacktracking.html#a8cfb2d08840766ac4402196079308a36", null ],
       [ "solve", "db/dc0/namespacebacktracking.html#a932e38e8912742cedf7b5a837168e03a", null ],
-      [ "solveSudoku", "db/dc0/namespacebacktracking.html#a2b98ee79cdbc02ffd7b1f786f9696892", null ]
+      [ "solveSudoku", "db/dc0/namespacebacktracking.html#af6b62cbc209d7e13ffca0ab3ed3392b6", null ]
     ] ],
     [ "bidirectional_dijkstra", "d4/d13/namespacebidirectional__dijkstra.html", null ],
     [ "caesar", "dd/d81/namespacecaesar.html", null ],
@@ -36,8 +36,6 @@ var namespaces_dup =
     [ "cut_rod", "d8/d36/namespacecut__rod.html", null ],
     [ "cycle_sort", "d4/dfb/namespacecycle__sort.html", null ],
     [ "data_structures", "d5/d3c/namespacedata__structures.html", "d5/d3c/namespacedata__structures" ],
-    [ "depth_first_search", "d8/da7/namespacedepth__first__search.html", null ],
-    [ "disjoint_union", "de/db4/namespacedisjoint__union.html", null ],
     [ "double_hashing", "d0/d65/namespacedouble__hashing.html", "d0/d65/namespacedouble__hashing" ],
     [ "dynamic_programming", "dd/d24/namespacedynamic__programming.html", null ],
     [ "false_position", "df/dea/namespacefalse__position.html", null ],
@@ -47,7 +45,6 @@ var namespaces_dup =
     [ "graph", "df/dce/namespacegraph.html", "df/dce/namespacegraph" ],
     [ "heavy_light_decomposition", "db/d6f/namespaceheavy__light__decomposition.html", null ],
     [ "horspool", "d5/d02/namespacehorspool.html", null ],
-    [ "inversion", "d9/d13/namespaceinversion.html", null ],
     [ "is_graph_bipartite", "de/d83/namespaceis__graph__bipartite.html", null ],
     [ "jarvis", "d5/da7/namespacejarvis.html", null ],
     [ "kadane", "d6/d74/namespacekadane.html", null ],
@@ -56,13 +53,11 @@ var namespaces_dup =
     [ "linear_algebra", "d3/d78/namespacelinear__algebra.html", null ],
     [ "linear_probing", "d8/d89/namespacelinear__probing.html", "d8/d89/namespacelinear__probing" ],
     [ "linked_list", "d3/db0/namespacelinked__list.html", null ],
-    [ "list_array", "d9/d27/namespacelist__array.html", null ],
     [ "machine_learning", "d8/d77/namespacemachine__learning.html", "d8/d77/namespacemachine__learning" ],
     [ "math", "dd/d47/namespacemath.html", "dd/d47/namespacemath" ],
     [ "median_search", "da/dd4/namespacemedian__search.html", null ],
     [ "merge_insertion", "de/d0a/namespacemerge__insertion.html", null ],
     [ "mincoins_topdown", "d5/db8/namespacemincoins__topdown.html", null ],
-    [ "modular_division", "d1/d64/namespacemodular__division.html", null ],
     [ "morse", "d6/d8d/namespacemorse.html", null ],
     [ "n_queens", "d3/da1/namespacen__queens.html", null ],
     [ "n_queens_all_solutions", "df/d44/namespacen__queens__all__solutions.html", null ],
@@ -89,18 +84,11 @@ var namespaces_dup =
     [ "range_queries", "dd/d69/namespacerange__queries.html", "dd/d69/namespacerange__queries" ],
     [ "rat_maze", "d9/d60/namespacerat__maze.html", null ],
     [ "runge_kutta", "d2/de7/namespacerunge__kutta.html", null ],
-    [ "saddleback", "d0/dda/namespacesaddleback.html", null ],
     [ "search", "d9/dca/namespacesearch.html", null ],
     [ "shortest_common_supersequence", "d3/deb/namespaceshortest__common__supersequence.html", null ],
     [ "sorting", "d5/d91/namespacesorting.html", [
       [ "cycle_sort", null, [
         [ "cycleSort", "de/d07/cycle__sort_8cpp.html#ad0cfe2e54b1d3f9d0ca648265d917c6a", null ]
-      ] ],
-      [ "inversion", null, [
-        [ "countInversion", "d2/d26/count__inversions_8cpp.html#a3332498eabf6579ef059c0d0e9f4ec80", null ],
-        [ "merge", "d2/d26/count__inversions_8cpp.html#aad643c14734394e784a75169cb58132f", null ],
-        [ "mergeSort", "d2/d26/count__inversions_8cpp.html#ae97a486e14101c4822ea8dc47f0d1661", null ],
-        [ "show", "d2/d26/count__inversions_8cpp.html#a851ca6a0391d14fb49a97d55e4377497", null ]
       ] ],
       [ "merge_insertion", null, [
         [ "InsertionSort", "de/d7b/merge__insertion__sort_8cpp.html#a0cba4fbf287ab8cb978ed7f8fef886b1", null ],
@@ -701,9 +689,7 @@ var namespaces_dup =
       [ "recalculate_hash", "d9/d03/namespacestring__search.html#aed769d565b705a9b3e0eb1ec74088893", null ]
     ] ],
     [ "strings", "df/dcb/namespacestrings.html", null ],
-    [ "tree_234", "d6/dab/namespacetree__234.html", null ],
     [ "util_functions", "d3/d17/namespaceutil__functions.html", null ],
-    [ "vector_cross", "d4/d91/namespacevector__cross.html", null ],
     [ "vigenere", "d6/da2/namespacevigenere.html", null ],
     [ "wiggle_sort", "d0/d52/namespacewiggle__sort.html", null ],
     [ "word_break", "d6/d53/namespaceword__break.html", null ],

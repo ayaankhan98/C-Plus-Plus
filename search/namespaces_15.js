@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['wiggle_5fsort_3089',['wiggle_sort',['../d0/d52/namespacewiggle__sort.html',1,'']]],
-  ['word_5fbreak_3090',['word_break',['../d6/d53/namespaceword__break.html',1,'']]]
+  ['xor_2963',['XOR',['../d7/d47/namespace_x_o_r.html',1,'']]]
 ];
