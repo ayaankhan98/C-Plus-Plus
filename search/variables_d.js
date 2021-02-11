@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['size_4048',['size',['../d1/dc2/classstack.html#ac512a3efdc84a5f5c9f53905c8e219b0',1,'stack']]],
-  ['stack_4049',['stack',['../dc/dc5/paranthesis__matching_8cpp.html#aa37d24a036d239b3b528f13b9de880c7',1,'paranthesis_matching.cpp']]],
-  ['stack_5fidx_4050',['stack_idx',['../dc/dc5/paranthesis__matching_8cpp.html#af4c937d823c412d99fbe60c99dbf0a4f',1,'paranthesis_matching.cpp']]],
-  ['stacktop_4051',['stackTop',['../d1/dc2/classstack.html#a7289037c059aaad492b4d68e6bd54453',1,'stack']]],
-  ['strkey_4052',['STRKEY',['../d6/d4e/namespaceciphers.html#ab9aec0ccf4b6809f652bb540be87c216',1,'ciphers']]]
+  ['n_5028',['n',['../d8/d69/classgraph_1_1_h_k_graph.html#a6f5a9fdbb83ef731d739ba6707e21c3c',1,'graph::HKGraph::n()'],['../de/d00/classgraph_1_1is__graph__bipartite_1_1_graph.html#aefea7ee87a708298c486d5a38ac628ef',1,'graph::is_graph_bipartite::Graph::n()']]],
+  ['neighbors_5029',['neighbors',['../dc/d61/classgraph_1_1_graph.html#a59940c462861f2fcf4951d1b6c084e6a',1,'graph::Graph']]],
+  ['next_5030',['next',['../d5/da1/structnode.html#a135f25acadfbba644f848f1aa18d8350',1,'node::next()'],['../dd/d1c/classhash__chain.html#a48236d44349c3ebce4774b706f4f8a0f',1,'hash_chain::next()'],['../d8/d10/structlist.html#a1900fe79e875e2838625b2eb60837f8f',1,'list::next()']]],
+  ['num_5fchars_5031',['NUM_CHARS',['../d0/d3e/classdata__structures_1_1trie.html#a4bfac4be6ed1a34c7159eddb42469191',1,'data_structures::trie']]]
 ];

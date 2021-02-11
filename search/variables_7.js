@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['isprime_4040',['isprime',['../db/d0d/prime__factorization_8cpp.html#a7fe38b570a51e448430d6a0f072c2f23',1,'isprime():&#160;prime_factorization.cpp'],['../d8/ddf/sieve__of__eratosthenes_8cpp.html#a0560e21edb54d5ad8d80b2d80348ce22',1,'isprime():&#160;sieve_of_eratosthenes.cpp']]]
+  ['grey_5003',['GREY',['../da/d4b/depth__first__search__with__stack_8cpp.html#a43e30173f12330e85cce6239a277527e',1,'depth_first_search_with_stack.cpp']]]
 ];
