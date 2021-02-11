@@ -5,6 +5,20 @@ var namespacegraph =
       [ "Bidijkstra", "d7/d07/bidirectional__dijkstra_8cpp.html#aa3848a7213562b47084585499d3642a5", null ],
       [ "Shortest_Path_Distance", "d7/d07/bidirectional__dijkstra_8cpp.html#ab322409d0015c023d91c67b5b2679257", null ]
     ] ],
+    [ "depth_first_search", null, [
+      [ "addEdge", "da/d4b/depth__first__search__with__stack_8cpp.html#a7511fcdb330b3ab599ff9e15229ae068", null ],
+      [ "dfs", "da/d4b/depth__first__search__with__stack_8cpp.html#ae198aeaad22ccd56712b7380bd62f777", null ]
+    ] ],
+    [ "disjoint_union", null, [
+      [ "find_set", "d8/d99/connected__components__with__dsu_8cpp.html#a469384d8a4197a9b24482ce7c321a85e", null ],
+      [ "make_set", "d8/d99/connected__components__with__dsu_8cpp.html#ae91ed94113c56191b75fe45f688d6e62", null ],
+      [ "no_of_connected_components", "d8/d99/connected__components__with__dsu_8cpp.html#a815c1710c7cb68d45a547283f1620deb", null ],
+      [ "test", "d8/d99/connected__components__with__dsu_8cpp.html#a21f15a055130b2d8f4bfdf2574745e48", null ],
+      [ "union_sets", "d8/d99/connected__components__with__dsu_8cpp.html#a67cb7472f310a798f555fe45cdf50145", null ],
+      [ "connected_set_size", "d8/d99/connected__components__with__dsu_8cpp.html#ac673ee622e2924fe2e691da019168f8b", null ],
+      [ "number_of_nodes", "d8/d99/connected__components__with__dsu_8cpp.html#a208d53cf9206339bf37a43f67f84e25b", null ],
+      [ "parent", "d8/d99/connected__components__with__dsu_8cpp.html#aa93bd9d3409fe4eeb7e5658eddd75fa8", null ]
+    ] ],
     [ "is_graph_bipartite", null, [
       [ "Graph", "de/d00/classgraph_1_1is__graph__bipartite_1_1_graph.html", "de/d00/classgraph_1_1is__graph__bipartite_1_1_graph" ]
     ] ],
